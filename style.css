@@ -1,0 +1,104 @@
+body{
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 40px;
+}
+p{
+    font-size: 18px;
+    line-height: 30px;
+    color: #666666;
+    text-align: justify;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.flex-display{
+    display: flex;
+}
+.half-width{ 
+    width: 50%;
+}
+.hero-sec {
+    background-image: url(images/banner.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 650px;
+    width: 100%;
+    margin: 0;
+}
+.pro-pic{
+    height: 650px;
+    position: relative;
+    
+}
+.pro-pic img{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 500px;
+}
+.circle-img{
+    background-image: url(images/cirlcle.png);
+    background-repeat: no-repeat;
+    width: 50%;
+    background-position-x: right;
+}
+.circle-img p{
+    padding: 5px 10px;
+    background-color: #ffffff;
+    display: inline-block;
+}
+.circle-img p{
+    margin-top: 250px;
+    display: inline-block;
+    
+}
+.circle-img h1{
+    margin-top: 0;
+    font-size: 70px;
+}
+.about-sec{
+    height: 300px;
+    margin: 50px 100px;
+}
+.about-me{
+    padding: 20px;
+}
+.skills{
+    padding: 20px;
+    margin-left: 30px;
+}
+ li{
+    font-size: 25px;
+    line-height: 30px;
+    list-style: square;
+}
+.works-sec{
+    background-color: aliceblue;
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+.works-sec h1{
+    margin-left: 70px;
+}
+.work-img img{
+    height: 500px;
+    width: 500px;
+    padding: 5px;
+    margin: 50px 70px;
+    border: 1px solid gray;
+    border-radius: 20px;
+
+}
+.footer {
+    background-color: blueviolet;
+    padding: 10px 0px;
+}
+footer p{
+    text-align: center;
+    color: black;
+    font-size: 20px;
+}
